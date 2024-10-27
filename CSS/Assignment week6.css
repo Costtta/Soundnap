@@ -1,0 +1,425 @@
+/* GENERAL STYLING START*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h2{
+    font-family: sans-serif;
+}
+
+p{
+    font-family: sans-serif;
+}
+
+body{
+    margin-bottom: 50px;
+}
+
+
+/* GENERAL STYLING END */
+
+
+
+/* SECTION NUMBER ONE */
+
+.section1{
+    display: inline-block;
+
+}
+
+.section1 .section1-nav{
+    background-color: white;
+    text-align: right;
+    padding: 1%;
+    position: fixed;
+    width: 100%;
+}
+
+h3{
+    display: inline-block;
+    margin-right: 60%;
+}
+
+.section1 .section1-nav ul{
+    display: inline-block;
+}
+.section1 .section1-nav ul li{
+    display: inline-block;
+    
+}
+
+.section1 .section1-nav ul li i{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.section1 .section1-nav ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 0px 20px;
+}
+
+.section1 .section1-nav .black-bold{
+    font-weight: bold;
+}
+
+
+
+.section1 .section1-content{
+    color: white;
+    /* background-color: black; */
+    background-image: url(../images/A_black_image.jpg);
+    float: left;
+    width: 50%;
+    /* height: calc(100vh - 243.57px); */
+    height: calc(100vh - 268px);
+}
+/* download a background black image to make it responsive because this one doesn't work */
+
+.section1 .section1-content h2{
+    font-size: 50px;
+    margin: 200px 200px 0px 200px;
+    padding: 20px;
+}
+
+.section1 .section1-content p{
+    margin: 0px 200px 0px 200px;
+    
+}
+
+.section1 .section1-content .dark{
+    margin: 0px 200px 0px 200px;
+    color: darkgreen;
+}
+
+.section1 .section1-content a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid;
+    padding: 15px 40px;
+    font-size: large;
+    margin: 200px 200px 0px 200px;
+}
+
+.section1 .section1-image{
+    width: 50%;
+    float: right;
+}
+
+.section1 .section1-image img{
+    width: 100%;
+}
+
+/* SECTION NUMBER TWO */
+
+.section2{
+    margin: auto;
+    width: 80%;
+}
+.section2 h2{
+    margin: 150px 0px 50px;
+}
+
+.section2 .six{
+    display: inline-block;
+    width: 16.44%;
+    margin: 0px 0px 0px 0px;
+    position: relative;
+}
+
+.section2 .six p{
+    position: absolute;
+
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    letter-spacing: 5px;
+}
+
+.section2 .six img{
+    width: 100%;
+}
+
+.section2 .six .first{
+    bottom: 83px;
+    left: 97px;
+}
+
+.section2 .six .second{
+    bottom: 83px;
+    left: 50px;
+}
+
+.section2 .six .third{
+    bottom: 83px;
+    left: 90px;
+}
+
+.section2 .six .forth{
+    bottom: 83px;
+    left: 46px;
+}
+
+.section2 .six .fifth{
+    bottom: 83px;
+    left: 68px;
+}
+
+.section2 .six .sixth{
+    bottom: 83px;
+    left: 51px;
+}
+
+.section2 .three{
+    display: inline-block;
+    width: 33.15%;
+    position: relative;
+}
+
+.section2 .three p{
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    letter-spacing: 5px;
+}
+
+.section2 .three .first{
+    bottom: 85px;
+    left: 170px;
+}
+
+.section2 .three .second{
+    bottom: 85px;
+    left: 205px;
+}
+
+.section2 .three .third{
+    bottom: 85px;
+    left: 169px;
+}
+
+.section2 .three img{
+    width: 100%;
+}
+
+/* SECTION NUMBER THREE */
+
+.section3{
+    width: 80%;
+    margin: 100px auto;
+}
+
+.section3 h2{
+    margin-bottom: 50px;
+}
+
+.section3 .section3-movies{
+    display: inline-block;
+    width: 16.44%;
+    position: relative;
+}
+
+.section3 .section3-movies p{
+    color: white;
+    font-weight: bold;
+}
+
+.movie-one{
+    position: absolute;
+    left: 100px;
+    bottom: 58px;
+}
+
+
+.movie-three{
+    position: absolute;
+    left: 61px;
+    bottom: 63px;
+}
+
+.movie-four{
+    position: absolute;
+    left: 91px;
+    bottom: 64px;
+}
+
+
+.movie-five{
+    position: absolute;
+    left: 74px;
+    bottom: 64px;
+}
+
+
+.movie-six{
+    position: absolute;
+    left: 65px;
+    bottom: 64px;
+}
+
+
+.section3 .section3-movies img{
+    width: 100%;
+}
+
+/* section 4 start */
+
+.section4{
+    margin: 100px auto;    
+    width: 80%;
+}
+.section4 h2{
+    margin-bottom: 60px
+}
+
+.section4  a{
+    background-color: rgba(211, 211, 211, 0.438);
+    text-decoration: none;
+    color: black;
+    padding: 25px 71px;
+    width: 100%;
+    font-family: sans-serif;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+/* section 4 end */
+
+/* SECTION SOCIAL */
+
+.social{
+    width: 80%;
+    margin: auto;
+}
+
+.social .both{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 2%
+    ;
+}
+
+.social .both .social-lines{
+    width: 57%;
+}
+
+.social .both .social-lines h2{
+    font-size: 50px;
+    width: 50%;
+}
+
+.social .both .social-lines p{
+    opacity: 0.5;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.social .both .social-lines .links3{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.social .both .social-lines .links3 .links3-top{
+    flex-grow: 1;
+    font-weight: 600;
+    
+}
+
+.social .both .social-lines .links3 .links3-bot{
+    flex-grow: 1;
+    font-weight: 600;
+}
+
+.social .both .social-lines .links3 a{
+    text-decoration: none;
+    color: black;
+    background-color: rgba(211, 211, 211, 0.438);
+    padding: 25px 90px;
+    width: 25%;
+    letter-spacing: 5px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.social .both .social-img{
+    width: 48%;
+}
+
+.social .both .social-img img{
+    width: 100%;
+    height: 100%;
+}
+
+/* SECTION RATING */
+
+.rating{
+    margin: auto;
+    width: 80%;
+}
+
+.rating .both{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+    margin-top: 100px
+}
+
+.rating .both .rating-img{
+    width: 50%;
+}
+
+.rating .both .rating-img img{
+    width: 100%;
+}
+
+.rating .both .rating-lines{
+
+    width: 50%;
+}
+
+.rating .both .rating-lines h2{
+    font-size: 55px;
+    padding-left: 150px;
+    font-weight: bold;
+    
+}
+
+.rating .both .rating-lines p{
+    padding-top: 50px;
+    padding-right: 250px;
+    padding-left: 150px;
+    opacity: 0.5;
+}
+
+
+
+.rating .both .rating-lines div{
+    padding-left: 150px;
+}
+
+
+.rating .both .rating-lines div span:last-child{
+    padding-left: 70px;
+
+}
+
+.rating-numbers{
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 25px;
+    padding-top: 50px
+}
+
+.rating-paragraphs{
+    opacity: 0.5;
+    padding-top: 10px;
+}
